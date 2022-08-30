@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(207, 100%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+nav{
+    margin-top: 30px;
+    height: 200px;
+}
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 150px;
+}
+
+nav .logo img{
+    width: 100%;
+}
+
+nav button{
+    padding: 7px 20px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.home{
+    position: relative;
+    display: flex;
+}
+
+.home .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home .img, .home .left{
+    width: 40%;
+}
+
+.home .img img{
+    width: 100%;
+}
+
+
+
+.home h1{
+    font-size: 30px;
+}
+
+.home p{
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.home button{
+    padding: 7px 20px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid hsl(322, 100%, 66%);
+    background: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.mockups{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.mockups img{
+    width: 80%;
+}
+
+.statistics{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.statistics img{
+    width: 20px;
+}
+
+.statistics div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.statistics div h1{
+    font-size: 40px;
+}
+
+.statistics div p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: hsl(321, 100%, 78%);
+}
+
+
+.grow{
+    margin-top: 100px;
+}
+
+.grow .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grow .left, .grow .right{
+    width: 45%;
+}
+
+.grow img{
+    width: 100%;
+}
+
+
+
+
+.flowing{
+    margin-top: 100px;
+}
+
+.flowing .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flowing .left, .flowing .right{
+    width: 45%;
+}
+
+.flowing img{
+    width: 100%;
+}
+
+
+
+.users{
+    margin-top: 100px;
+}
+
+.users .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.users .left, .users .right{
+    width: 45%;
+}
+
+.users img{
+    width: 100%;
+}
+
+
+
+.ready{
+    text-align: center;
+    margin: 50px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 50px auto;
+}
+
+.ready button{
+    padding: 12px 25px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid hsl(322, 100%, 66%);
+    background: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer{
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+.footer .footer-content{
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 30px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .container p{
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer .container > div{
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.footer .first{
+    flex: 2;
+}
+
+.footer .second{
+    flex: 1;
+}
+
+.footer .thaird{
+    flex: 1;
+}
+
+.footer .last{
+    flex: 2;
+}
+
+.footer .first p{
+    width: 300px;
+}
+
+.footer .first > div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer .first > div img{
+    margin-right: 20px;
+}
+
+
+.footer .last input{
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .last button{
+    padding: 7px 20px;
+    border: none;
+    border: 1px solid hsl(322, 100%, 66%);
+    background: hsl(322, 100%, 66%);
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.footer li{
+    list-style: none;
+}
+
+
+@media(max-width: 991px){
+    .grow .container{
+        text-align: center;
+    }
+    .grow .left, .grow .right{
+        width: 100%;
+    }
+    
+    .grow .left{
+        margin: 50px 0;
+    }
+    
+    .grow img{
+        width: 350px;
+    }
+    
+    
+    
+    .flowing .container{
+        text-align: center;
+    }
+    .flowing .left, .flowing .right{
+        width: 100%;
+    }
+    
+    .flowing .first{
+        margin: 50px 0;
+    }
+    
+    .flowing img{
+        width: 350px;
+    }
+    
+    
+    .users .container{
+        text-align: center;
+    }
+    .users .left, .users .right{
+        width: 100%;
+    }
+    
+    .users .left{
+        margin: 50px 0;
+    }
+    
+    .users img{
+        width: 350px;
+    }
+    
+    
+    .home .left, .home .img{
+        width: 100%;
+    }
+    
+    .home .img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    
+    .footer .container > div{
+        flex: none;
+        width: 100%;
+    }
+    
+    .footer .first p{
+        width: auto;
+    }
+}
+
+@media(max-width: 520px){
+    .container{
+        padding: 0 50px;
+    }
+    
+    nav .logo{
+        width: 80px;
+    }
+    
+    .home p {
+        width: 300px;
+    }
+    
+    .grow img, .flowing img, .users img{
+        width: 250px;
+    }
+    
+    .statistics div h1{
+        font-size: 30px;
+    }
+    
+    .statistics div p{
+        font-size: 10px;
+    }
+    
+    .ready{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+
+@media(max-width: 320px){
+    .statistics{
+        flex-direction: column;
+    }
+    
+    .statistics div{
+        margin-bottom: 30px;
+    }
+    
+    .statistics div {
+        align-items: center;
+    }
+}
